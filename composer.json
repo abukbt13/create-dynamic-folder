@@ -1,24 +1,22 @@
 {
     "name": "abukbt2024/create-folder-command",
-    "description": "A Laravel package to create a folder via artisan command.",
-    "type": "library",
+    "description": "This is a simple project to create a file",
+    "type": "project",
+    "require": {
+        "illuminate/support": "12.x-dev",
+        "illuminate/console": "12.x-dev"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "Abukbt2024\\CreateFolderCommand\\": "src/"
         }
     },
-    "require": {
-        "php": "^8.2",
-    },
-
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Abukbt2024\\CreateFolderCommand\\CreateFolderCommandServiceProvider"
-            ]
+    "authors": [
+        {
+            "name": "abukbt13",
+            "email": "abukbt13@gmail.com"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    ],
+    "minimum-stability": "dev"
 }
